@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Complete Accounting Cycle — One-Month Practice Question</title>
+<style>
+:root{--ink:#172033;--muted:#596579;--line:#d9e0ea;--blue:#173f72;--pale:#eef4fb;--gold:#fff5d9;--green:#eaf7ef}
+*{box-sizing:border-box} body{margin:0;background:#f3f6fa;color:var(--ink);font:16px/1.58 Arial,Helvetica,sans-serif}
+header{background:linear-gradient(120deg,#102b4e,#245b91);color:white;padding:42px 22px}
+header .wrap,main{max-width:1050px;margin:auto} h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:0 0 12px}
+header p{max-width:800px;margin:0;color:#e4edf8}
+main{padding:26px 18px 60px}.card{background:white;border:1px solid var(--line);border-radius:14px;padding:24px;margin:18px 0;box-shadow:0 4px 16px #1b31500a}
+h2{font-size:25px;color:var(--blue);margin:0 0 14px}h3{font-size:19px;margin:22px 0 8px;color:#203b5d}
+p{margin:8px 0} .note{background:var(--pale);border-left:4px solid #3974ad;padding:12px 15px;border-radius:6px;margin:14px 0}
+.gold{background:var(--gold);border-left-color:#d29b20}.green{background:var(--green);border-left-color:#2d8b57}
+table{width:100%;border-collapse:collapse;margin:12px 0 18px;font-size:14px}
+th,td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:#edf2f8;color:#203b5d}td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr.total td{font-weight:bold;background:#f4f7fb;border-top:2px solid #8092a8}
+.small{font-size:13px;color:var(--muted)}.formula{font-weight:bold;background:#f7f9fc;padding:11px;border-radius:8px;display:block;margin:10px 0}
+.pill{display:inline-block;background:#e5eef9;color:#214d7b;padding:4px 9px;border-radius:20px;font-size:12px;font-weight:bold;margin:3px 4px 3px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.box{border:1px solid var(--line);border-radius:9px;padding:13px;background:#fbfcfe}
+.box strong{display:block;color:#234d78;margin-bottom:5px}
+ul,ol{padding-left:23px}li{margin:5px 0}
+footer{text-align:center;color:var(--muted);padding:25px;font-size:13px}
+@media print{body{background:white}.card{box-shadow:none;break-inside:avoid}header{background:#173f72!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}table{font-size:11px}main{max-width:none;padding:10px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<span class="pill">BEGINNER FRIENDLY</span><span class="pill">ONE MONTH</span><span class="pill">FULL ACCOUNTING CYCLE</span>
+<h1>The Complete Accounting Cycle</h1>
+<p>A connected November practice question with a fully worked solution: start with the accounting equation, record journal entries, post to T-accounts, prepare trial balances, adjust the accounts, and finish all four financial statements.</p>
+</div></header>
+<main>
+<section class="card">
+<h2>Part 1 — The practice question</h2>
+<p><strong>Business:</strong> Sami Services Ltd. &nbsp; <strong>Accounting period:</strong> 1–30 November 2026</p>
+<p>Sami Services Ltd. is a newly started service business. During November, the following transactions took place. Assume the business started on 1 November, so all opening balances are zero.</p>
+<table>
+<thead><tr><th>Date</th><th>Transaction</th></tr></thead>
+<tbody>
+<tr><td>Nov 1</td><td>Issued ordinary shares for cash of $30,000.</td></tr>
+<tr><td>Nov 2</td><td>Borrowed $10,000 from the bank and received the cash.</td></tr>
+<tr><td>Nov 3</td><td>Purchased equipment for $12,000 cash.</td></tr>
+<tr><td>Nov 4</td><td>Purchased office supplies for $1,200 cash.</td></tr>
+<tr><td>Nov 5</td><td>Paid $1,200 for 12 months of insurance in advance.</td></tr>
+<tr><td>Nov 8</td><td>Provided services and received $4,500 cash.</td></tr>
+<tr><td>Nov 12</td><td>Provided services worth $6,000 on credit (the customer will pay later).</td></tr>
+<tr><td>Nov 15</td><td>Collected $2,500 from customers who owed the business money.</td></tr>
+<tr><td>Nov 18</td><td>Paid office rent of $1,500.</td></tr>
+<tr><td>Nov 20</td><td>Paid employee salaries of $2,200.</td></tr>
+<tr><td>Nov 23</td><td>Received $1,800 cash in advance from a customer for future services.</td></tr>
+<tr><td>Nov 25</td><td>Paid utility bills of $600.</td></tr>
+<tr><td>Nov 27</td><td>Paid dividends of $1,000 to shareholders.</td></tr>
+<tr><td>Nov 29</td><td>Provided services and received $3,000 cash.</td></tr>
+<tr><td>Nov 30</td><td>Paid employee salaries of a further $1,200.</td></tr>
+</tbody></table>
+<h3>Information available at 30 November (adjustments)</h3>
+<ol>
+<li>Supplies physically remaining are worth $400.</li>
+<li>One month of the 12-month insurance policy has expired.</li>
+<li>Equipment depreciation for November is $200.</li>
+<li>Employees have earned a further $500 in salaries, but this amount will be paid in December.</li>
+<li>By 30 November, the business has completed $600 of the services for which it received the $1,800 advance.</li>
+</ol>
+<h3>Your tasks</h3>
+<ol>
+<li>Show the effect of each transaction on the accounting equation.</li>
+<li>Prepare the general journal.</li>
+<li>Post the journal entries to ledger T-accounts.</li>
+<li>Prepare the unadjusted trial balance.</li>
+<li>Prepare the adjusting journal entries.</li>
+<li>Prepare the adjusted trial balance.</li>
+<li>Prepare the statement of cash flows.</li>
+<li>Prepare the income statement.</li>
+<li>Prepare the statement of retained earnings.</li>
+<li>Prepare the balance sheet.</li>
+</ol>
+<div class="note gold"><strong>Important assumptions:</strong> This is a simplified introductory exercise. There are no taxes, interest charges, accounts payable, or other transactions. The bank loan is treated as a liability. Dividends are distributions to shareholders, not an expense.</div>
+</section>
+
+<section class="card">
+<h2>Part 2 — Understand the accounting equation</h2>
+<span class="formula">Assets = Liabilities + Shareholders’ Equity</span>
+<p><strong>Assets</strong> are what the business owns or controls (cash, receivables, supplies, equipment). <strong>Liabilities</strong> are amounts it owes (bank loan, unearned revenue, salaries payable). <strong>Equity</strong> is the owners’ residual interest (share capital plus retained earnings).</p>
+<p>Every transaction must keep both sides equal. Here is the effect of each transaction. “+” means an increase and “−” means a decrease.</p>
+<table>
+<tr><th>Date</th><th>Assets</th><th>Liabilities</th><th>Equity</th><th>Reason</th></tr>
+<tr><td>Nov 1</td><td>Cash +30,000</td><td>—</td><td>Share capital +30,000</td><td>Owners invest cash.</td></tr>
+<tr><td>Nov 2</td><td>Cash +10,000</td><td>Loan +10,000</td><td>—</td><td>Borrowing creates a liability.</td></tr>
+<tr><td>Nov 3</td><td>Cash −12,000; equipment +12,000</td><td>—</td><td>—</td><td>One asset is exchanged for another.</td></tr>
+<tr><td>Nov 4</td><td>Cash −1,200; supplies +1,200</td><td>—</td><td>—</td><td>Supplies are an asset until used.</td></tr>
+<tr><td>Nov 5</td><td>Cash −1,200; prepaid insurance +1,200</td><td>—</td><td>—</td><td>Future insurance coverage is an asset.</td></tr>
+<tr><td>Nov 8</td><td>Cash +4,500</td><td>—</td><td>Revenue +4,500</td><td>Services have been earned.</td></tr>
+<tr><td>Nov 12</td><td>Accounts receivable +6,000</td><td>—</td><td>Revenue +6,000</td><td>Revenue is earned even though cash comes later.</td></tr>
+<tr><td>Nov 15</td><td>Cash +2,500; receivables −2,500</td><td>—</td><td>—</td><td>Collection changes the form of the asset, not total assets.</td></tr>
+<tr><td>Nov 18</td><td>Cash −1,500</td><td>—</td><td>Rent expense −1,500</td><td>An expense reduces profit and equity.</td></tr>
+<tr><td>Nov 20</td><td>Cash −2,200</td><td>—</td><td>Salaries expense −2,200</td><td>An expense reduces profit and equity.</td></tr>
+<tr><td>Nov 23</td><td>Cash +1,800</td><td>Unearned revenue +1,800</td><td>—</td><td>Cash received before earning revenue is a liability.</td></tr>
+<tr><td>Nov 25</td><td>Cash −600</td><td>—</td><td>Utilities expense −600</td><td>An expense reduces equity.</td></tr>
+<tr><td>Nov 27</td><td>Cash −1,000</td><td>—</td><td>Dividends −1,000</td><td>Dividends reduce retained earnings, not profit.</td></tr>
+<tr><td>Nov 29</td><td>Cash +3,000</td><td>—</td><td>Revenue +3,000</td><td>Services have been earned.</td></tr>
+<tr><td>Nov 30</td><td>Cash −1,200</td><td>—</td><td>Salaries expense −1,200</td><td>Salary payment is an expense.</td></tr>
+</table>
+<div class="note green"><strong>Check:</strong> The equation balances after every transaction. For example, on Nov 2, assets increase by $10,000 and liabilities also increase by $10,000. Equity does not change.</div>
+</section>
+
+<section class="card">
+<h2>Part 3 — General journal</h2>
+<p>The journal is the first formal record of transactions. Debit is written on the left; credit is written on the right. Total debits must equal total credits in every entry.</p>
+<table>
+<tr><th>Date</th><th>Account and explanation</th><th class="num">Debit ($)</th><th class="num">Credit ($)</th></tr>
+<tr><td>Nov 1</td><td>Cash<br>Ordinary Share Capital</td><td class="num">30,000</td><td class="num">30,000</td></tr>
+<tr><td>Nov 2</td><td>Cash<br>Bank Loan Payable</td><td class="num">10,000</td><td class="num">10,000</td></tr>
+<tr><td>Nov 3</td><td>Equipment<br>Cash</td><td class="num">12,000</td><td class="num">12,000</td></tr>
+<tr><td>Nov 4</td><td>Supplies<br>Cash</td><td class="num">1,200</td><td class="num">1,200</td></tr>
+<tr><td>Nov 5</td><td>Prepaid Insurance<br>Cash</td><td class="num">1,200</td><td class="num">1,200</td></tr>
+<tr><td>Nov 8</td><td>Cash<br>Service Revenue</td><td class="num">4,500</td><td class="num">4,500</td></tr>
+<tr><td>Nov 12</td><td>Accounts Receivable<br>Service Revenue</td><td class="num">6,000</td><td class="num">6,000</td></tr>
+<tr><td>Nov 15</td><td>Cash<br>Accounts Receivable</td><td class="num">2,500</td><td class="num">2,500</td></tr>
+<tr><td>Nov 18</td><td>Rent Expense<br>Cash</td><td class="num">1,500</td><td class="num">1,500</td></tr>
+<tr><td>Nov 20</td><td>Salaries Expense<br>Cash</td><td class="num">2,200</td><td class="num">2,200</td></tr>
+<tr><td>Nov 23</td><td>Cash<br>Unearned Service Revenue</td><td class="num">1,800</td><td class="num">1,800</td></tr>
+<tr><td>Nov 25</td><td>Utilities Expense<br>Cash</td><td class="num">600</td><td class="num">600</td></tr>
+<tr><td>Nov 27</td><td>Dividends<br>Cash</td><td class="num">1,000</td><td class="num">1,000</td></tr>
+<tr><td>Nov 29</td><td>Cash<br>Service Revenue</td><td class="num">3,000</td><td class="num">3,000</td></tr>
+<tr><td>Nov 30</td><td>Salaries Expense<br>Cash</td><td class="num">1,200</td><td class="num">1,200</td></tr>
+</table>
+<h3>Why these debit and credit choices?</h3>
+<div class="grid">
+<div class="box"><strong>Assets</strong>Increase with a debit; decrease with a credit.</div>
+<div class="box"><strong>Liabilities</strong>Increase with a credit; decrease with a debit.</div>
+<div class="box"><strong>Share capital and revenue</strong>Normally increase with a credit.</div>
+<div class="box"><strong>Expenses and dividends</strong>Normally increase with a debit.</div>
+</div>
+<div class="note">Example: On Nov 12, the business earned $6,000 but has not received cash. Debit Accounts Receivable because the customer now owes the business. Credit Service Revenue because the service has been earned.</div>
+</section>
+
+<section class="card">
+<h2>Part 4 — Ledger posting (T-accounts)</h2>
+<p>Posting means transferring each journal debit or credit to the correct ledger account. The ledger groups all activity by account, so you can calculate each account’s balance.</p>
+<table>
+<tr><th>Account</th><th>Debit side postings ($)</th><th>Credit side postings ($)</th><th>Balance before adjustments</th></tr>
+<tr><td>Cash</td><td>30,000; 10,000; 4,500; 2,500; 1,800; 3,000</td><td>12,000; 1,200; 1,200; 1,500; 2,200; 600; 1,000; 1,200</td><td>Dr 30,900</td></tr>
+<tr><td>Accounts Receivable</td><td>6,000</td><td>2,500</td><td>Dr 3,500</td></tr>
+<tr><td>Equipment</td><td>12,000</td><td>—</td><td>Dr 12,000</td></tr>
+<tr><td>Supplies</td><td>1,200</td><td>—</td><td>Dr 1,200</td></tr>
+<tr><td>Prepaid Insurance</td><td>1,200</td><td>—</td><td>Dr 1,200</td></tr>
+<tr><td>Bank Loan Payable</td><td>—</td><td>10,000</td><td>Cr 10,000</td></tr>
+<tr><td>Unearned Service Revenue</td><td>—</td><td>1,800</td><td>Cr 1,800</td></tr>
+<tr><td>Ordinary Share Capital</td><td>—</td><td>30,000</td><td>Cr 30,000</td></tr>
+<tr><td>Service Revenue</td><td>—</td><td>13,500</td><td>Cr 13,500</td></tr>
+<tr><td>Rent Expense</td><td>1,500</td><td>—</td><td>Dr 1,500</td></tr>
+<tr><td>Salaries Expense</td><td>3,400</td><td>—</td><td>Dr 3,400</td></tr>
+<tr><td>Utilities Expense</td><td>600</td><td>—</td><td>Dr 600</td></tr>
+<tr><td>Dividends</td><td>1,000</td><td>—</td><td>Dr 1,000</td></tr>
+</table>
+<p class="small">Cash debit postings total $51,800; cash credit postings total $20,900; the debit balance is $30,900. Salaries Expense is $2,200 + $1,200 = $3,400 before the adjustment.</p>
+<div class="note gold"><strong>Remember:</strong> A T-account has debits on the left and credits on the right. The balance is the difference between the two sides. An asset or expense usually has a debit balance; a liability, equity, or revenue usually has a credit balance.</div>
+</section>
+
+<section class="card">
+<h2>Part 5 — Unadjusted trial balance</h2>
+<p>A trial balance lists the ledger balances before end-of-month adjustments. It checks whether total debit balances equal total credit balances. It does not prove that every transaction is correct, but it helps detect arithmetic and posting errors.</p>
+<table>
+<tr><th>Account</th><th class="num">Debit ($)</th><th class="num">Credit ($)</th></tr>
+<tr><td>Cash</td><td class="num">30,900</td><td class="num">—</td></tr>
+<tr><td>Accounts Receivable</td><td class="num">3,500</td><td class="num">—</td></tr>
+<tr><td>Equipment</td><td class="num">12,000</td><td class="num">—</td></tr>
+<tr><td>Supplies</td><td class="num">1,200</td><td class="num">—</td></tr>
+<tr><td>Prepaid Insurance</td><td class="num">1,200</td><td class="num">—</td></tr>
+<tr><td>Bank Loan Payable</td><td class="num">—</td><td class="num">10,000</td></tr>
+<tr><td>Unearned Service Revenue</td><td class="num">—</td><td class="num">1,800</td></tr>
+<tr><td>Ordinary Share Capital</td><td class="num">—</td><td class="num">30,000</td></tr>
+<tr><td>Service Revenue</td><td class="num">—</td><td class="num">13,500</td></tr>
+<tr><td>Rent Expense</td><td class="num">1,500</td><td class="num">—</td></tr>
+<tr><td>Salaries Expense</td><td class="num">3,400</td><td class="num">—</td></tr>
+<tr><td>Utilities Expense</td><td class="num">600</td><td class="num">—</td></tr>
+<tr><td>Dividends</td><td class="num">1,000</td><td class="num">—</td></tr>
+<tr class="total"><td>Total</td><td class="num">55,300</td><td class="num">55,300</td></tr>
+</table>
+</section>
+
+<section class="card">
+<h2>Part 6 — Adjusting entries</h2>
+<p>Adjustments are made at the end of the month so revenues and expenses are recorded in the correct period. They also update assets and liabilities to their correct ending balances.</p>
+<table>
+<tr><th>No.</th><th>Calculation and explanation</th><th>Debit ($)</th><th>Credit ($)</th></tr>
+<tr><td>A1</td><td>Supplies used = supplies available $1,200 − supplies remaining $400 = $800. Record the amount used as an expense.</td><td>Supplies Expense 800</td><td>Supplies 800</td></tr>
+<tr><td>A2</td><td>Insurance expired = $1,200 ÷ 12 months = $100 for November.</td><td>Insurance Expense 100</td><td>Prepaid Insurance 100</td></tr>
+<tr><td>A3</td><td>Record the equipment’s November depreciation.</td><td>Depreciation Expense 200</td><td>Accumulated Depreciation—Equipment 200</td></tr>
+<tr><td>A4</td><td>Employees have earned $500 that has not yet been paid. Record the expense and liability.</td><td>Salaries Expense 500</td><td>Salaries Payable 500</td></tr>
+<tr><td>A5</td><td>Of the $1,800 received in advance, $600 has now been earned. Reduce the liability and recognise revenue.</td><td>Unearned Service Revenue 600</td><td>Service Revenue 600</td></tr>
+</table>
+<h3>Adjustment journal entries</h3>
+<table>
+<tr><th>Date</th><th>Account and explanation</th><th class="num">Debit ($)</th><th class="num">Credit ($)</th></tr>
+<tr><td>Nov 30</td><td>Supplies Expense<br>Supplies</td><td class="num">800</td><td class="num">800</td></tr>
+<tr><td>Nov 30</td><td>Insurance Expense<br>Prepaid Insurance</td><td class="num">100</td><td class="num">100</td></tr>
+<tr><td>Nov 30</td><td>Depreciation Expense<br>Accumulated Depreciation—Equipment</td><td class="num">200</td><td class="num">200</td></tr>
+<tr><td>Nov 30</td><td>Salaries Expense<br>Salaries Payable</td><td class="num">500</td><td class="num">500</td></tr>
+<tr><td>Nov 30</td><td>Unearned Service Revenue<br>Service Revenue</td><td class="num">600</td><td class="num">600</td></tr>
+</table>
+<div class="note"><strong>Key idea:</strong> The $500 unpaid salary is still an expense because employees have already done the work. The $600 earned from the advance is revenue because the business has now performed that part of the service.</div>
+</section>
+
+<section class="card">
+<h2>Part 7 — Adjusted trial balance</h2>
+<p>After posting all five adjustments, prepare a fresh trial balance. These are the balances used to prepare the financial statements.</p>
+<table>
+<tr><th>Account</th><th class="num">Debit ($)</th><th class="num">Credit ($)</th></tr>
+<tr><td>Cash</td><td class="num">30,900</td><td class="num">—</td></tr>
+<tr><td>Accounts Receivable</td><td class="num">3,500</td><td class="num">—</td></tr>
+<tr><td>Supplies</td><td class="num">400</td><td class="num">—</td></tr>
+<tr><td>Prepaid Insurance</td><td class="num">1,100</td><td class="num">—</td></tr>
+<tr><td>Equipment</td><td class="num">12,000</td><td class="num">—</td></tr>
+<tr><td>Accumulated Depreciation—Equipment</td><td class="num">—</td><td class="num">200</td></tr>
+<tr><td>Bank Loan Payable</td><td class="num">—</td><td class="num">10,000</td></tr>
+<tr><td>Unearned Service Revenue</td><td class="num">—</td><td class="num">1,200</td></tr>
+<tr><td>Salaries Payable</td><td class="num">—</td><td class="num">500</td></tr>
+<tr><td>Ordinary Share Capital</td><td class="num">—</td><td class="num">30,000</td></tr>
+<tr><td>Service Revenue</td><td class="num">—</td><td class="num">14,100</td></tr>
+<tr><td>Rent Expense</td><td class="num">1,500</td><td class="num">—</td></tr>
+<tr><td>Salaries Expense</td><td class="num">3,900</td><td class="num">—</td></tr>
+<tr><td>Utilities Expense</td><td class="num">600</td><td class="num">—</td></tr>
+<tr><td>Dividends</td><td class="num">1,000</td><td class="num">—</td></tr>
+<tr><td>Supplies Expense</td><td class="num">800</td><td class="num">—</td></tr>
+<tr><td>Insurance Expense</td><td class="num">100</td><td class="num">—</td></tr>
+<tr><td>Depreciation Expense</td><td class="num">200</td><td class="num">—</td></tr>
+<tr class="total"><td>Total</td><td class="num">56,000</td><td class="num">56,000</td></tr>
+</table>
+</section>
+
+<section class="card">
+<h2>Part 8 — Statement of cash flows</h2>
+<p>This statement explains why cash changed during November. We use the indirect method: start with net income, then adjust for non-cash expenses and changes in working-capital balances.</p>
+<table>
+<tr><th>Sami Services Ltd. — Statement of Cash Flows</th><th class="num">Amount ($)</th></tr>
+<tr><td><strong>Cash flows from operating activities</strong></td><td></td></tr>
+<tr><td>Net income</td><td class="num">7,000</td></tr>
+<tr><td>Add: Depreciation expense (non-cash)</td><td class="num">200</td></tr>
+<tr><td>Less: Increase in accounts receivable</td><td class="num">(3,500)</td></tr>
+<tr><td>Less: Increase in supplies</td><td class="num">(400)</td></tr>
+<tr><td>Less: Increase in prepaid insurance</td><td class="num">(1,100)</td></tr>
+<tr><td>Add: Increase in unearned service revenue</td><td class="num">1,200</td></tr>
+<tr><td>Add: Increase in salaries payable</td><td class="num">500</td></tr>
+<tr class="total"><td>Net cash provided by operating activities</td><td class="num">3,900</td></tr>
+<tr><td><strong>Cash flows from investing activities</strong></td><td></td></tr>
+<tr><td>Purchase of equipment</td><td class="num">(12,000)</td></tr>
+<tr class="total"><td>Net cash used in investing activities</td><td class="num">(12,000)</td></tr>
+<tr><td><strong>Cash flows from financing activities</strong></td><td></td></tr>
+<tr><td>Issue of ordinary shares</td><td class="num">30,000</td></tr>
+<tr><td>Proceeds from bank loan</td><td class="num">10,000</td></tr>
+<tr><td>Dividends paid</td><td class="num">(1,000)</td></tr>
+<tr class="total"><td>Net cash provided by financing activities</td><td class="num">39,000</td></tr>
+<tr class="total"><td>Net increase in cash</td><td class="num">30,900</td></tr>
+<tr><td>Opening cash balance</td><td class="num">0</td></tr>
+<tr class="total"><td>Closing cash balance</td><td class="num">30,900</td></tr>
+</table>
+<h3>How to understand the cash flow adjustments</h3>
+<ul>
+<li><strong>Add depreciation:</strong> it reduced accounting profit but did not use cash in November.</li>
+<li><strong>Subtract increases in receivables, supplies and prepaid insurance:</strong> cash has not been received for receivables, and cash was spent to acquire supplies and prepaid insurance.</li>
+<li><strong>Add increases in unearned revenue and salaries payable:</strong> cash was received before earning all the revenue, and some salary expense has not yet been paid.</li>
+<li><strong>Investing:</strong> buying long-term equipment is an investing cash outflow.</li>
+<li><strong>Financing:</strong> share issue and borrowing bring in cash; dividends paid take cash out.</li>
+</ul>
+<div class="note green"><strong>Cross-check:</strong> $3,900 − $12,000 + $39,000 = $30,900. This equals the Cash balance in the adjusted trial balance and ledger.</div>
+</section>
+
+<section class="card">
+<h2>Part 9 — Income statement</h2>
+<p>The income statement reports performance for the month. It compares revenue earned with expenses incurred. Dividends are not included as an expense.</p>
+<table>
+<tr><th>Sami Services Ltd. — Income Statement</th><th class="num">Amount ($)</th></tr>
+<tr><td>Service revenue ($13,500 before adjustment + $600 earned from advance)</td><td class="num">14,100</td></tr>
+<tr><td><strong>Expenses</strong></td><td></td></tr>
+<tr><td>Rent expense</td><td class="num">1,500</td></tr>
+<tr><td>Salaries expense ($2,200 + $1,200 + $500 accrued)</td><td class="num">3,900</td></tr>
+<tr><td>Utilities expense</td><td class="num">600</td></tr>
+<tr><td>Supplies expense</td><td class="num">800</td></tr>
+<tr><td>Insurance expense</td><td class="num">100</td></tr>
+<tr><td>Depreciation expense</td><td class="num">200</td></tr>
+<tr class="total"><td>Total expenses</td><td class="num">7,100</td></tr>
+<tr class="total"><td>Net income</td><td class="num">7,000</td></tr>
+</table>
+<span class="formula">Net income = Total revenue − Total expenses = $14,100 − $7,100 = $7,000</span>
+</section>
+
+<section class="card">
+<h2>Part 10 — Statement of retained earnings</h2>
+<p>This statement explains the movement in accumulated profits kept in the business. For this newly started company, opening retained earnings are zero.</p>
+<table>
+<tr><th>Sami Services Ltd. — Statement of Retained Earnings</th><th class="num">Amount ($)</th></tr>
+<tr><td>Opening retained earnings</td><td class="num">0</td></tr>
+<tr><td>Add: Net income for November</td><td class="num">7,000</td></tr>
+<tr><td>Less: Dividends</td><td class="num">(1,000)</td></tr>
+<tr class="total"><td>Closing retained earnings</td><td class="num">6,000</td></tr>
+</table>
+<span class="formula">Closing retained earnings = Opening retained earnings + Net income − Dividends</span>
+<p>So: $0 + $7,000 − $1,000 = <strong>$6,000</strong>. The $1,000 dividend reduces retained earnings, but it does not reduce net income.</p>
+</section>
+
+<section class="card">
+<h2>Part 11 — Balance sheet</h2>
+<p>The balance sheet shows the business’s financial position at one date: 30 November 2026. It must satisfy the accounting equation.</p>
+<table>
+<tr><th>Sami Services Ltd. — Balance Sheet at 30 November 2026</th><th class="num">Amount ($)</th></tr>
+<tr><td><strong>Assets</strong></td><td></td></tr>
+<tr><td>Cash</td><td class="num">30,900</td></tr>
+<tr><td>Accounts receivable</td><td class="num">3,500</td></tr>
+<tr><td>Supplies</td><td class="num">400</td></tr>
+<tr><td>Prepaid insurance</td><td class="num">1,100</td></tr>
+<tr><td>Equipment</td><td class="num">12,000</td></tr>
+<tr><td>Less: Accumulated depreciation</td><td class="num">(200)</td></tr>
+<tr class="total"><td>Total assets</td><td class="num">47,700</td></tr>
+<tr><td><strong>Liabilities</strong></td><td></td></tr>
+<tr><td>Bank loan payable</td><td class="num">10,000</td></tr>
+<tr><td>Unearned service revenue</td><td class="num">1,200</td></tr>
+<tr><td>Salaries payable</td><td class="num">500</td></tr>
+<tr class="total"><td>Total liabilities</td><td class="num">11,700</td></tr>
+<tr><td><strong>Shareholders’ equity</strong></td><td></td></tr>
+<tr><td>Ordinary share capital</td><td class="num">30,000</td></tr>
+<tr><td>Retained earnings</td><td class="num">6,000</td></tr>
+<tr class="total"><td>Total shareholders’ equity</td><td class="num">36,000</td></tr>
+<tr class="total"><td>Total liabilities and shareholders’ equity</td><td class="num">47,700</td></tr>
+</table>
+<div class="note green"><strong>Final accounting equation:</strong><br>Assets $47,700 = Liabilities $11,700 + Equity $36,000.<br>Both sides equal, so the balance sheet balances.</div>
+</section>
+
+<section class="card">
+<h2>Part 12 — The full process, in exam order</h2>
+<ol>
+<li><strong>Read the transaction:</strong> identify which accounts are affected.</li>
+<li><strong>Accounting equation:</strong> decide whether assets, liabilities or equity increase/decrease.</li>
+<li><strong>General journal:</strong> record the debit and credit.</li>
+<li><strong>Ledger/T-accounts:</strong> post each debit and credit into its account.</li>
+<li><strong>Unadjusted trial balance:</strong> list balances and check debit total = credit total.</li>
+<li><strong>Adjusting entries:</strong> record used-up assets, accrued expenses and revenue earned from advances.</li>
+<li><strong>Adjusted trial balance:</strong> update balances and check equality again.</li>
+<li><strong>Cash flow statement:</strong> classify cash movements as operating, investing or financing.</li>
+<li><strong>Income statement:</strong> calculate net income.</li>
+<li><strong>Statement of retained earnings:</strong> calculate closing retained earnings.</li>
+<li><strong>Balance sheet:</strong> show assets, liabilities and equity; confirm the equation balances.</li>
+</ol>
+<div class="note gold"><strong>Common exam traps</strong>
+<ul>
+<li>Receiving cash in advance is initially a liability, not revenue.</li>
+<li>Providing a service on credit creates accounts receivable and revenue.</li>
+<li>Collecting a receivable is not new revenue; it is just cash replacing receivables.</li>
+<li>Buying equipment is not an immediate expense; it is an asset. Depreciation is recorded over time.</li>
+<li>Supplies become an expense when used, not simply when purchased.</li>
+<li>Dividends are not an operating expense and do not appear on the income statement.</li>
+<li>A trial balance can balance even when an entire transaction has been omitted or recorded in the wrong account.</li>
+</ul></div>
+</section>
+<footer>Practice set prepared for learning the introductory accounting cycle · All amounts in dollars ($).</footer>
+</main>
+</body></html>
